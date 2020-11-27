@@ -28,6 +28,13 @@ namespace Edit_Report_in_the_Designer
 
         private void GlobalEvents_SaveReport(object sender, StiSavingObjectEventArgs e)
         {
+            // Skip the SaveAs event
+            if (e.EventSource == StiSaveEventSource.SaveAs)
+            {
+                e.Processed = false;
+                return;
+            }
+
             var report = ((IStiDesignerBase)sender).Report;
 
             // How to Save

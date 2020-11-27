@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Engine" Version="2020.5.1" />
+    <PackageReference Include="Stimulsoft.Reports.Engine" Version="2020.5.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Net" Version="2020.5.1" />
+    <PackageReference Include="Stimulsoft.Reports.Net" Version="2020.5.2" />
   </ItemGroup>
 
   <ItemGroup>

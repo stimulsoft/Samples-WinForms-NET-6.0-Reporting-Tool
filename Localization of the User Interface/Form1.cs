@@ -35,7 +35,7 @@ namespace Localization_of_the_User_Interface
 
         private void LoadLocalization()
         {
-            StiLocalization.Load(comboBoxLocalizations.Text);
+            StiOptions.Localization.Load(comboBoxLocalizations.Text);
         }
 
         private void ButtonShow_Click(object sender, EventArgs e)
