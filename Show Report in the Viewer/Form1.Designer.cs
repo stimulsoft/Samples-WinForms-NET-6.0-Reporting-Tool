@@ -85,7 +85,6 @@
 
         #endregion
 
-        private Stimulsoft.Report.Viewer.StiRibbonViewerControl stiRibbonViewerControl1;
         private System.Windows.Forms.Button buttonControl;
         private System.Windows.Forms.Button buttonDialog;
         private Stimulsoft.Report.Viewer.StiViewerControl stiViewerControl1;
