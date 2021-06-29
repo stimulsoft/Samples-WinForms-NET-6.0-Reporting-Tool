@@ -1,16 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Localization_of_the_User_Interface</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Net" Version="2021.3.1" />
+    <PackageReference Include="Stimulsoft.Reports.Net" Version="2021.3.4" />
   </ItemGroup>
-
   <ItemGroup>
     <None Update="Localization\*.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -19,5 +16,4 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>

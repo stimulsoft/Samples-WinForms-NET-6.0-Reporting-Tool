@@ -149,11 +149,13 @@
     <AddFilter>&amp;Filter hinzufügen</AddFilter>
     <AddSeries>Reihen hinzufügen</AddSeries>
     <AddStrip>Streifen hinzufügen</AddStrip>
+    <AddTrendLine>Trendlinie hinzufügen</AddTrendLine>
     <Area>Fläche</Area>
     <Axes>Axen</Axes>
     <AxisReverse>Vertauschen</AxisReverse>
     <AxisX>X Achse</AxisX>
     <AxisY>Y Achse</AxisY>
+    <BoxAndWhisker>Box-Plot</BoxAndWhisker>
     <Bubble>Blase</Bubble>
     <Candlestick>Kerzen</Candlestick>
     <ChartConditionsCollectionForm>Bedingungen</ChartConditionsCollectionForm>
@@ -384,6 +386,7 @@
     <Create>Erstellen</Create>
     <CreateError>Fehler beim Erstellen des Berichtes!</CreateError>
     <CreateNewCollection>Neue Sammlung erstellen</CreateNewCollection>
+    <CreateYourTeam>Ihr Team erstellen</CreateYourTeam>
     <CreatingReport>Der Bericht wird erstellt...</CreatingReport>
     <DashboardWindowTitleNew>Neues Dashboard</DashboardWindowTitleNew>
     <DeleteFile>Datei löschen</DeleteFile>
@@ -402,6 +405,8 @@
     <HyperlinkHavePassword>Ich habe ein Passwort</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Neues Konto erstellen</HyperlinkRegisterAccount>
     <InstallSamples>Beispiele installieren</InstallSamples>
+    <Invitations>Einladungen</Invitations>
+    <Invite>Einladen</Invite>
     <LabelAddCloudFolder>Verbinden Sie Ihren Stimulsoft Cloud-Ordner mit Berichten und Dashboards.</LabelAddCloudFolder>
     <LabelAddFolder>Fügen Sie Ihren lokalen Ordner mit Berichten und Dashboards hinzu.</LabelAddFolder>
     <labelCollectionName>Sammlung Name:</labelCollectionName>
@@ -417,6 +422,7 @@
     <LabelForeground>Vordergrund:</LabelForeground>
     <LabelFromReport>Aus dem Bericht</LabelFromReport>
     <LabelFromReportCode>Aus dem Bericht (im Code festgestellt)</LabelFromReportCode>
+    <LabelInviteUser>Laden Sie neue Benutzer in Ihr Team ein. Senden Sie die Einladungen an ihre E-Mails..</LabelInviteUser>
     <LabelLastLogin>Letzte Anmeldung:</LabelLastLogin>
     <LabelLastTime>Letztes Mal:</LabelLastTime>
     <LabelModified>Verändert:</LabelModified>
@@ -430,11 +436,13 @@
     <LabelResultType>Ergebnistyp:</LabelResultType>
     <LabelSeparateReport>Separate Berichts- (und Scripts-) Datei</LabelSeparateReport>
     <LabelShowReport>Bericht anzeigen:</LabelShowReport>
+    <LabelStartDate>Startdatum:</LabelStartDate>
     <labelUserName>Benutzer:</labelUserName>
     <License>Lizenz</License>
     <LicenseInformation>Lizenz-Information</LicenseInformation>
     <LicenseKey>Lizenzschlüssel</LicenseKey>
     <Login>Anmelden</Login>
+    <MyTeam>My Team</MyTeam>
     <NofM>{0}: {1} von {2}</NofM>
     <Open>Öffnen</Open>
     <OpenFile>Datei öffnen</OpenFile>
@@ -479,6 +487,7 @@
     <TabItemEmbedCode>Einbettungscode</TabItemEmbedCode>
     <TabItemQRCode>QR-Code</TabItemQRCode>
     <TabItemShare>Link zur Freigabe</TabItemShare>
+    <Team>Team</Team>
     <TermsOfUse>Bedingungen</TermsOfUse>
     <TextActivated>Aktiviert</TextActivated>
     <TextActivationDate>Activierungsdatum</TextActivationDate>
@@ -562,8 +571,52 @@
     <WizardRegisteredShareDescription>Externer Zugriff nur für registrierte Benutzer aus dem Arbeitsbereich.</WizardRegisteredShareDescription>
     <WizardXmlDescription>Den Bericht mit Xml-Daten erstellen.</WizardXmlDescription>
   </Cloud>
+  <Scheduler>
+    <Scheduler>Scheduler</Scheduler>
+    <ActionRunReport>Bericht ausführen</ActionRunReport>
+    <TextPressPlusIconAddNewAction>Klicken Sie auf das Symbol Plus zum Hinzufügen neuer Aktion!</TextPressPlusIconAddNewAction>
+    <WizardOnce>Einmal</WizardOnce>
+    <WizardOnceDescription>Den Scheduler einmal jederzeit ausführen.</WizardOnceDescription>
+    <WizardHourly>Stündlich</WizardHourly>
+    <WizardHourlyDescription>Einmal pro Stunde.</WizardHourlyDescription>
+    <WizardDaily>Täglich</WizardDaily>
+    <WizardDailyDescription>Einmal pro Tag, in angegebener Zeit.</WizardDailyDescription>
+    <WizardWeekly>Weekly</WizardWeekly>
+    <WizardWeeklyDescription>In ausgewählten Tagen der Woche, in angegebener Zeit.</WizardWeeklyDescription>
+    <WizardMonthly>Monatlich</WizardMonthly>
+    <WizardMonthlyDescription>Monatlich, in ausgewählten Tagen der Woche oder Tagen des Monates, in angegebener Zeit.</WizardMonthlyDescription>
+    <LabelRunAtTime>Ausführungszeit</LabelRunAtTime>
+    <LabelRunEvery>Ausführen jede</LabelRunEvery>
+    <LabelRunAtDay>Ausführungstag</LabelRunAtDay>
+    <RadioButtonDay>Tag</RadioButtonDay>
+    <DayDayX>Tag {0}</DayDayX>
+    <DayLast>Letzter</DayLast>
+    <DayNone>Keiner</DayNone>
+    <RadioButtonOn>An</RadioButtonOn>
+    <NumberOfDayFirst>Erster</NumberOfDayFirst>
+    <NumberOfDaySecond>Zweiter</NumberOfDaySecond>
+    <NumberOfDayThird>Dritter</NumberOfDayThird>
+    <NumberOfDayFourth>Vierter</NumberOfDayFourth>
+    <NumberOfDayLast>Letzter</NumberOfDayLast>
+    <NumberOfDayAll>Alle</NumberOfDayAll>
+    <NumberOfDayNone>Keine</NumberOfDayNone>
+    <DaysOfWeekAll>Alle</DaysOfWeekAll>
+    <DaysOfWeekNone>Keine</DaysOfWeekNone>
+    <LabelRunAtMonth>Ausführungsmonat</LabelRunAtMonth>
+    <LabelDaysOfWeek>Wochentag</LabelDaysOfWeek>
+    <TextDragDropReportHere>Ziehen Sie den Bericht hierhin</TextDragDropReportHere>
+    <ToolTipSetParameters>Bestimmung der Berichtsparameter</ToolTipSetParameters>
+    <TextDragDropDestinationHere>Ziehen Sie das Zielort-Element hierhin</TextDragDropDestinationHere>
+    <LabelResultName>Result-Name</LabelResultName>
+    <CheckBoxOverwriteIfExists>Überschreiben wenn existiert</CheckBoxOverwriteIfExists>
+    <LabelTo>Nach</LabelTo>
+    <LabelSubject>Subjekt</LabelSubject>
+    <LabelMessage>Nachricht</LabelMessage>
+    <GroupBoxFiles>Dateien</GroupBoxFiles>
+  </Scheduler>
   <Components>
     <StiBarCode>Barcode</StiBarCode>
+    <StiButton>Schaltfläche</StiButton>
     <StiChart>Diagramm</StiChart>
     <StiCheckBox>Kontrollkästchen</StiCheckBox>
     <StiChildBand>Untergeordnetes Band</StiChildBand>
@@ -602,8 +655,9 @@
     <StiIndicator>Indikator</StiIndicator>
     <StiListBox>Listenfeld</StiListBox>
     <StiMap>Karte</StiMap>
+    <StiMathFormula>Mathematikformel</StiMathFormula>
     <StiOnlineMap>Online-Karte</StiOnlineMap>
-    <StiOverlayBand>Overlay</StiOverlayBand>
+    <StiOverlayBand>Überlagerung</StiOverlayBand>
     <StiPage>Seite</StiPage>
     <StiPageFooterBand>Seitenfuß</StiPageFooterBand>
     <StiPageHeaderBand>Seitenkopf</StiPageHeaderBand>
@@ -626,6 +680,7 @@
     <StiSubReport>Unterbericht</StiSubReport>
     <StiSystemText>Systemtext</StiSystemText>
     <StiTable>Tabelle</StiTable>
+    <StiTableOfContents>Inhaltstabelle</StiTableOfContents>
     <StiText>Text</StiText>
     <StiTextInCells>Text in Zellen</StiTextInCells>
     <StiTreeView>Baumansicht</StiTreeView>
@@ -637,6 +692,7 @@
   <Dashboard>
     <AddRange>Bereich hinzufügen</AddRange>
     <AfterGroupingData>Nach der Datengruppierung übernehmen</AfterGroupingData>
+    <AllowUserColumnSelection>Erlauben, den Benutzern die Spalten auszuwählen</AllowUserColumnSelection>
     <AllowUserDrillDown>Benutzer-Drill-Down erlauben</AllowUserDrillDown>
     <AllowUserFiltering>Benutzer-Filterung erlauben</AllowUserFiltering>
     <AllowUserSorting>Benutzer-Sortierung erlauben</AllowUserSorting>
@@ -681,6 +737,7 @@
     <LimitRows>Reihen überspringen und begrenzen</LimitRows>
     <Measure>Maß</Measure>
     <Measures>Maße</Measures>
+    <Metrics>Metriken</Metrics>
     <NewDimension>Neue Dimension</NewDimension>
     <NewField>Neues Feld</NewField>
     <NewMeasure>Neues Maß</NewMeasure>
@@ -746,6 +803,7 @@
     <CurrentQuarter>Aktuelles Quartal</CurrentQuarter>
     <CurrentWeek>Aktuelle Woche</CurrentWeek>
     <CurrentYear>Aktuelles Jahr</CurrentYear>
+    <DaysAgo>Vor {0} Tagen</DaysAgo>
     <FirstQuarter>Erstes Quartal</FirstQuarter>
     <FourthQuarter>Viertes Quartal</FourthQuarter>
     <Index>Index</Index>
@@ -846,6 +904,8 @@
     <StiTreeViewControl>Baum</StiTreeViewControl>
   </Dialogs>
   <Editor>
+    <AllowSQLFormatting>SQL-Formatierung erlauben</AllowSQLFormatting>
+    <BetweenMetrics>Von 1 bis 10 Metriken können ausgewählt werden.</BetweenMetrics>
     <CantFind>Zu Ihren Suchkriterien wurden keine Daten gefunden.</CantFind>
     <CollapseToDefinitions>&amp;Nur Definitionen anzeigen</CollapseToDefinitions>
     <Column>Spalte: {0}</Column>
@@ -863,6 +923,7 @@
     <MarkAll>Alles markieren</MarkAll>
     <MatchCase>&amp;Groß-/Kleinschreibung beachten</MatchCase>
     <MatchWholeWord>Nur ganzes Wort suchen</MatchWholeWord>
+    <MaximumDimensions>Maximal 7 Dimensionen können ausgewählt werden.</MaximumDimensions>
     <Outlining>Glieder&amp;n</Outlining>
     <PromptOnReplace>E&amp;rsetzen bestätigen</PromptOnReplace>
     <Replace>Ersetzen</Replace>
@@ -898,6 +959,7 @@
     <NoServices>Dienste wurden in '{0}' nicht gefunden</NoServices>
     <NotAssign>Datenquelle undefiniert.</NotAssign>
     <NotCorrectFormat>Eingangstext war nicht in einem richtigen Format.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>Only one 'Table of Contents' component can be used in a report at the same time!</OneTableOfContentsAllowed>
     <PrimaryColumnAction>Unmöglich, diese Aktion zur Primärspalte von '{0}' zu übernehmen.</PrimaryColumnAction>
     <RelationsNotFound>Beziehungen wurden nicht gefunden.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Es sind Fehler aufgetreten. Der Bericht konnte nicht gespeichert werden!</ReportCannotBeSaveDueToErrors>
@@ -905,6 +967,7 @@
   </Errors>
   <ExceptionProvider>
     <Assemblies>Assemblierungen</Assemblies>
+    <ClickIgnore>Klicken Sie 'Ignorieren', um alle automatisch gespeicherten Dateien zu löschen.</ClickIgnore>
     <Exception>Ausnahme</Exception>
     <ExceptionReport>Ausnahme-Bericht</ExceptionReport>
     <Framework>Framework</Framework>
@@ -917,6 +980,8 @@
     <SendErrorSuccess>Die Fehlermeldung ist erfolgreich geliefert.</SendErrorSuccess>
     <Source>Quelle</Source>
     <StackTrace>Stack-Ablaufverfolgung</StackTrace>
+    <YouCanRestore>Sie können nicht gespeicherte Veränderungen aus der Backup-Datei wiederherstellen.</YouCanRestore>
+    <YourPreviousWorkSession>In Ihrer vorherigen Arbeitssession ist der Designer unerwartet abgebrochen.</YourPreviousWorkSession>
   </ExceptionProvider>
   <Export>
     <AddPageBreaks>Seitenumbrüche hinzufügen</AddPageBreaks>
@@ -943,6 +1008,7 @@
     <DotMatrixMode>Dot-Matrix Modus</DotMatrixMode>
     <EmbeddedFonts>Schriftarten einbetten</EmbeddedFonts>
     <EmbeddedImageData>Bilder einbetten</EmbeddedImageData>
+    <EnableAnimation>Animation aktivieren</EnableAnimation>
     <Encoding>Codierung:</Encoding>
     <EncryptionError>Fehler bei der Verschlüsselung</EncryptionError>
     <EscapeCodes>Escape Codes</EscapeCodes>
@@ -1199,11 +1265,18 @@
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
     <AccessToken>Zugangstoken</AccessToken>
+    <AccountKey>Account-Schlüssel</AccountKey>
+    <AccountName>Accountname</AccountName>
     <AuthorizationCode>Autorisierungscode</AuthorizationCode>
+    <BlobContentType>Blob Inhaltstyp</BlobContentType>
+    <BlobName>Blob-Name</BlobName>
     <ClientId>Client-ID</ClientId>
     <ClientSecret>Geheimer Clientschlüssel</ClientSecret>
     <ConnectionString>Verbindungszeichenfolge:</ConnectionString>
+    <ContainerName>Container-Name</ContainerName>
     <DashboardConnections>Dashboard-Verbindung</DashboardConnections>
+    <DatabaseSecret>Datenbank-Geheimnis</DatabaseSecret>
+    <DatasetId>Dataset Id</DatasetId>
     <DB2Edit>IBM DB2 Verbindung ändern</DB2Edit>
     <DB2New>Neue IBM DB2 Verbindung</DB2New>
     <EditConnection>{0} Verbindung bearbeiten</EditConnection>
@@ -1213,6 +1286,8 @@
     <FirstRowIsHeader>In der ersten Reihe sind die Kopfdaten</FirstRowIsHeader>
     <GetAuthorizationCode>Autorisierungscode erhalten</GetAuthorizationCode>
     <GetTokens>Token erhalten</GetTokens>
+    <GisEdit>GIS-Daten bearbeiten</GisEdit>
+    <GisNew>Neue GIS-Daten</GisNew>
     <ImportData>Import der Daten</ImportData>
     <InformixEdit>Informix-Verbindung ändern</InformixEdit>
     <InformixNew>Neue Informix-Verbindung</InformixNew>
@@ -1231,12 +1306,14 @@
     <OracleODPEdit>Oracle ODP.NET Verbindung ändern</OracleODPEdit>
     <OracleODPNew>Neue Oracle ODP.NET Verbindung</OracleODPNew>
     <PathData>Pfad zu XML-Daten:</PathData>
+    <PathGisData>Weg zu Gis-Daten:</PathGisData>
     <PathJsonData>Pfad zu JSON-Daten:</PathJsonData>
     <PathSchema>Pfad zu XSD-Schema:</PathSchema>
     <PathToData>Pfad zu Daten:</PathToData>
     <Pin>Pin</Pin>
     <PostgreSQLEdit>PostgreSQL-Verbindung ändern</PostgreSQLEdit>
     <PostgreSQLNew>Neue PostgreSQL-Verbindung</PostgreSQLNew>
+    <ProjectId>Projekt Id</ProjectId>
     <PromptUserNameAndPassword>Benutzer und Password abfragen</PromptUserNameAndPassword>
     <RecentConnections>Lezte Verbindungen</RecentConnections>
     <RedirectUrl>Umleitungs-URL</RedirectUrl>
@@ -1245,6 +1322,7 @@
     <RelationDirection>Verbindungsrichtung:</RelationDirection>
     <ReportConnections>Berichtsverbindungen</ReportConnections>
     <SelectData>Daten auswählen</SelectData>
+    <ServiceAccountKeyFile>Die Schlüssel-Datei des Service-Accounts</ServiceAccountKeyFile>
     <SpreadsheetId>Tabellenkalkulation-ID</SpreadsheetId>
     <SqlCeEdit>SQLServerCE-Verbindung ändern</SqlCeEdit>
     <SqlCeNew>Neue SQLServerCE-Verbindung</SqlCeNew>
@@ -1282,20 +1360,20 @@
     <MarginsNarrow>Schmal</MarginsNarrow>
     <MarginsNormal>Normal</MarginsNormal>
     <MarginsWide>Breit</MarginsWide>
-    <OrderToolbars>Werkzeugleisten anordnen</OrderToolbars>
+    <OrderToolbars>Symbolleisten anordnen</OrderToolbars>
     <Others>Andere</Others>
     <Pages>Seiten</Pages>
     <Preview>Vorschau</Preview>
     <PropertyChange>Eigenschaft '{0}' bearbeiten</PropertyChange>
     <RTPreview>WinRT Vorschau</RTPreview>
-    <SetupToolbox>Werkzeuge einrichten</SetupToolbox>
+    <SetupToolbox>Toolbox einrichten</SetupToolbox>
     <ShowDescription>Beschreibungen einblenden</ShowDescription>
     <SLPreview>Silverlight Vorschau</SLPreview>
     <title>Designer</title>
     <WebPreview>Flash Vorschau</WebPreview>
   </FormDesigner>
   <FormDictionaryDesigner>
-    <Actions>Funktionen</Actions>
+    <Actions>Aktionen</Actions>
     <AutoSort>Automatische Sortierung</AutoSort>
     <BusinessObjectEdit>Geschäftsobjekt ändern</BusinessObjectEdit>
     <CalcColumnEdit>Berechnete Spalte bearbeiten</CalcColumnEdit>
@@ -1338,6 +1416,7 @@
     <ExecutedSQLStatementSuccessfully>Die SQL-Anweisung wurde erfolgreich ausgeführt</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Neuer Ausdruck</ExpressionNew>
     <GetColumnsFromAssembly>Spalten aus Assembly</GetColumnsFromAssembly>
+    <HideUnsupportedDatabases>Nicht unterstützte Datenquellen ausblenden</HideUnsupportedDatabases>
     <ImportRelations>Beziehungen importieren</ImportRelations>
     <LabelSeparator>Trennzeichen:</LabelSeparator>
     <MarkUsedItems>Benutzte Elemente markieren</MarkUsedItems>
@@ -1454,7 +1533,7 @@
     <groupGridDrawingOptions>Raster: Zeichenoptionen</groupGridDrawingOptions>
     <groupGridOptions>Raster: Optionen</groupGridOptions>
     <groupGridSize>Raster: Grosse</groupGridSize>
-    <groupMainOptions>Berichtsdesigner-Hauptoptionen</groupMainOptions>
+    <groupMainOptions>Hauptoptionen des Designers</groupMainOptions>
     <groupMarkersStyle>Marker-Stil</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Quick-Info: Optionen</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Benutzerdefiniert</groupPleaseSelectTypeOfGui>
@@ -1491,12 +1570,12 @@
     <Bottom>Unten:</Bottom>
     <Columns>Spalten</Columns>
     <groupColumns>Gruppen-Spalten</groupColumns>
-    <groupImage>Wasserzeichen:Bild</groupImage>
+    <groupImage>Wasserzeichen-Bild</groupImage>
     <groupMargins>Ränder</groupMargins>
     <groupOrientation>Orientierung</groupOrientation>
     <groupPaper>Größe</groupPaper>
     <groupPaperSource>Papierquelle</groupPaperSource>
-    <groupText>Wasserzeichen:Text</groupText>
+    <groupText>Wasserzeichen-Text</groupText>
     <Height>Höhe:</Height>
     <labelAngle>Winkel:</labelAngle>
     <labelColumnGaps>Spalten-Zwischenräume:</labelColumnGaps>
@@ -1563,7 +1642,7 @@
     <CreateStyleOnBase>Einen Stil aufgrund anderes Stiles erstellen</CreateStyleOnBase>
     <CreateStylesFromColor>Stil aus gewählter Farbe erstellen</CreateStylesFromColor>
     <Duplicate>Stil kopieren</Duplicate>
-    <EditColors>[Farben bearbeiten]</EditColors>
+    <EditColors>Farben bearbeiten</EditColors>
     <FromStyle>Aus der Art</FromStyle>
     <GetStyle>Stil von ausgewählten Komponenten übernehmen</GetStyle>
     <MoreStyles>Mehr Stile</MoreStyles>
@@ -1663,7 +1742,7 @@
     <Thumbnails>Miniaturansichten</Thumbnails>
     <title>Vorschau</title>
     <titlePageSettings>Seite einrichten</titlePageSettings>
-    <Toolbar>Werkzeugleiste</Toolbar>
+    <Toolbar>Symbolleiste</Toolbar>
     <VerScrollBar>Vertikale Bildlaufleiste</VerScrollBar>
     <ViewMode>Seitenansichts-Modus</ViewMode>
     <Zoom>Zoom</Zoom>
@@ -1722,6 +1801,7 @@
     <barsys_autohide_tooltip>Automatisch verbergen</barsys_autohide_tooltip>
     <barsys_close_tooltip>Schliessen</barsys_close_tooltip>
     <barsys_customize_tooltip>Benutzerdefiniert</barsys_customize_tooltip>
+    <ClickAndDragPickColor>Klicken und ziehen, um die Farbe aszuwählen</ClickAndDragPickColor>
     <colorpicker_morecolors>&amp;Weitere Farben...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;Keine Füllung</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Standardfarben</colorpicker_standardcolorslabel>
@@ -1780,7 +1860,7 @@
     <cust_pm_stytextonly>Nur Text (immer)</cust_pm_stytextonly>
     <cust_tab_commands>Befehle</cust_tab_commands>
     <cust_tab_options>Optionen</cust_tab_options>
-    <cust_tab_toolbars>Werkzeugleisten</cust_tab_toolbars>
+    <cust_tab_toolbars>Symbolleisten</cust_tab_toolbars>
     <mdisysmenu_close>Schließen</mdisysmenu_close>
     <mdisysmenu_maximize>Maximieren</mdisysmenu_maximize>
     <mdisysmenu_minimize>Minimieren</mdisysmenu_minimize>
@@ -1995,7 +2075,7 @@
     <Shadow>Schattierung</Shadow>
     <ShowBehind>Hinten anzeigen</ShowBehind>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
-    <ShowToolbox>Werkzeuge</ShowToolbox>
+    <ShowToolbox>Toolbox</ShowToolbox>
     <StimulsoftHelp>Stimulsoft Hilfe</StimulsoftHelp>
     <StyleDesigner>Stile</StyleDesigner>
     <TellMeMore>weitere Informationen</TellMeMore>
@@ -2004,7 +2084,7 @@
     <TextBrushWatermark>Wasserzeichen: Pinsel</TextBrushWatermark>
     <TextColor>Farbe</TextColor>
     <TextFormat>Text Format</TextFormat>
-    <ToolbarStyle>Werkzeugleiste-Stil</ToolbarStyle>
+    <ToolbarStyle>Symbolleiste-Stil</ToolbarStyle>
     <Undo>Rückgängig</Undo>
     <WordWrap>Textumbruch</WordWrap>
     <Zoom>Zoom</Zoom>
@@ -2252,7 +2332,7 @@
     <menuViewShowOrder>Reihenfolge anzeigen</menuViewShowOrder>
     <menuViewShowRulers>Lineale</menuViewShowRulers>
     <menuViewShowToolbox>Toolbox anzeigen</menuViewShowToolbox>
-    <menuViewToolbars>Werkzeugleisten</menuViewToolbars>
+    <menuViewToolbars>Symbolleisten</menuViewToolbars>
   </MainMenu>
   <Map>
     <GroupAsia>Asien</GroupAsia>
@@ -2264,9 +2344,17 @@
     <LinkDataForm>Datenverbindung</LinkDataForm>
     <MapEditorForm>Karte-Editor</MapEditorForm>
   </Map>
+  <MathFormula>
+    <Alphabets>Alphabete</Alphabets>
+    <Arrows>Pfeilen</Arrows>
+    <Formulas>Formeln</Formulas>
+    <Maths>Mathematik</Maths>
+    <Operators>Betreiber</Operators>
+  </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Anforderungs-Timeout für SQL-Quellen überschreitet Anforderungs-Timeout des Berichtsdesigners. Stellen Sie Anforderungs-Timeout für Designer-Komponente nicht weniger als {0} Sekunden ein.</ChangeRequestTimeout>
     <DoNotShowAgain>Mehr nicht anzeigen</DoNotShowAgain>
+    <LatexFormat>Das LaTeX-Format wird für Anzeige von Mathematikformeln verwendet.</LatexFormat>
     <MessageTimeOutExpired>Befehl-Timeout ist abgelaufen!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>Bei der Anzeige des geteilten Berichtes wird das Rendering im Interpretation-Modus erfolgt.</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Die Ressource "{0}" kann nicht gelöscht werden, weil sie im Bericht verwendet wird!</ResourceCannotBeDeleted>
@@ -2323,6 +2411,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AuthUserHasLoggedOut>Sie sind abgemeldet!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExist>Der Benutzername (E-Mail) ist schon verwendet!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Der Benutzername (E-Mail) ist bereits verwendet!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Der Benutzername (E-Mail) ist nicht angegeben!</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>Benutzername (E-Mail) {0} ist nicht mit Ihrem {1} Account verbunden!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Der Benutzername (E-Mail) ist falsch!</AuthUserNameOrPasswordIsNotCorrect>
@@ -2558,6 +2647,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CrossTabCategory>Kreuztabelle</CrossTabCategory>
     <DashboardCategory>Dashboard</DashboardCategory>
     <DataCategory>Daten</DataCategory>
+    <DataCells>Datenzellen</DataCells>
     <DatePickerCategory>Datumsauswahl</DatePickerCategory>
     <DescriptionCategory>Beschreibung</DescriptionCategory>
     <DesignCategory>Entwurf</DesignCategory>
@@ -2604,6 +2694,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Size>Größe</Size>
     <SubReportCategory>Unterbericht</SubReportCategory>
     <TableCategory>Tabelle</TableCategory>
+    <TableOfContents>Table of Contents</TableOfContents>
     <TextAdditionalCategory>Text (weitere)</TextAdditionalCategory>
     <TextCategory>Text</TextCategory>
     <TitleCategory>Titel</TitleCategory>
@@ -2928,6 +3019,11 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StiCrossHorAlignmentLeft>Links</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Kein</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Rechts</StiCrossHorAlignmentRight>
+    <StiDashboardContentAlignmentCenter>Zentrum</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentLeft>Links</StiDashboardContentAlignmentLeft>
+    <StiDashboardContentAlignmentRight>Rechts</StiDashboardContentAlignmentRight>
+    <StiDashboardContentAlignmentStretchX>Nach X strecken</StiDashboardContentAlignmentStretchX>
+    <StiDashboardContentAlignmentStretchXY>Nach XY strecken</StiDashboardContentAlignmentStretchXY>
     <StiDateSelectionModeAutoRange>Auto-Range</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>Range</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>Einzeln</StiDateSelectionModeSingle>
@@ -3487,6 +3583,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <AlternatingCellForeColor>Vordergrundfarbe abwechselnder Zelle</AlternatingCellForeColor>
     <AlternatingDataColor>Farbe abwechselnder Daten</AlternatingDataColor>
     <AlternatingDataForeground>Vordergrund abwechselnder Daten</AlternatingDataForeground>
+    <Always>Immer</Always>
     <Anchor>Anker</Anchor>
     <Angle>Winkel</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
@@ -3617,16 +3714,19 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ConnectOnStart>Beim Start verbinden</ConnectOnStart>
     <ConstantLines>Konstante Linien</ConstantLines>
     <Container>Container</Container>
+    <ContentAlignment>Inhalt ausrichten</ContentAlignment>
     <ContinuousText>Text fortlaufend</ContinuousText>
     <ContourColor>Konturenfarbe</ContourColor>
     <Converting>Datei wird konvertiert</Converting>
     <ConvertNulls>Null umwandeln</ConvertNulls>
     <Copies>Kopien</Copies>
+    <CornerRadius>Eckenradius</CornerRadius>
     <Count>Anzahl</Count>
     <CountData>Anzahl Elemente</CountData>
     <Create>Erstellen</Create>
     <CreateFieldOnDoubleClick>Feld durch Doppelklick erstellen</CreateFieldOnDoubleClick>
     <CreateLabel>Beschriftung erstellen</CreateLabel>
+    <CrossFiltering>Kreuzfilterung</CrossFiltering>
     <Culture>Kultur</Culture>
     <CustomFonts> Eigene Schriftarten</CustomFonts>
     <CustomFormat>Benutzerdefiniertes Format</CustomFormat>
@@ -3763,6 +3863,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ForeColor>Textfarbe</ForeColor>
     <Format>Format</Format>
     <From>Von</From>
+    <FrozenColumns>Frozen Columns</FrozenColumns>
     <FullConvertExpression>Ausdruck komplett konvertieren</FullConvertExpression>
     <Function>Funktion</Function>
     <Functions>Funktionen</Functions>
@@ -3798,7 +3899,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HeaderRowsCount>Anzahl Kopfzeilen</HeaderRowsCount>
     <Headers>Kopfzeile</Headers>
     <HeaderText>Kopfzeilentext</HeaderText>
+    <Heading>Heading</Heading>
+    <Heatmap>Heatmap</Heatmap>
     <HeatmapColors>Heatmapfarben</HeatmapColors>
+    <HeatmapWithGroup>Heatmap mit Gruppe</HeatmapWithGroup>
     <Height>Höhe</Height>
     <HideSeriesWithEmptyTitle>Reihen ohne Titel ausblenden</HideSeriesWithEmptyTitle>
     <HideZeros>0-Werte unterdrücken</HideZeros>
@@ -3820,8 +3924,10 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <HtmlTags>Html-Tag</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
     <HyperlinkDataColumn>Hyperlink Datenspalte</HyperlinkDataColumn>
+    <HyperlinkPattern>Hyperlink-Muster</HyperlinkPattern>
     <Icon>Symbol</Icon>
     <IconAlignment>Symbol-Ausrichtung</IconAlignment>
+    <IconColor>Symbolfarbe</IconColor>
     <IconSet>Symbolliste</IconSet>
     <IconSetCondition>Symbolliste Bedingung</IconSetCondition>
     <Idents>Bezeichner</Idents>
@@ -3886,6 +3992,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Language>Sprache</Language>
     <LargeHeight>Überlänge</LargeHeight>
     <LargeHeightFactor>Faktor der Überlänge</LargeHeightFactor>
+    <LaTexExpression>LaTex-Ausdruck</LaTexExpression>
     <Latitude>Breitengrad</Latitude>
     <Layout>Layout</Layout>
     <Left>Linksbündig</Left>
@@ -4050,7 +4157,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <PathSchema>Pfad Schema</PathSchema>
     <Pattern>Muster</Pattern>
     <Placement>Platzierung</Placement>
-    <PlaceOnToolbox>Auf die Werkzeuge platzieren</PlaceOnToolbox>
+    <PlaceOnToolbox>Auf die Toolbox platzieren</PlaceOnToolbox>
     <PointAtCenter>Punkt in der Mitte</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positiv</Positive>
@@ -4079,6 +4186,8 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ProcessingDuplicates>Duplikate verarbeiten</ProcessingDuplicates>
     <ProcessTilde>Tilde verarbeiten</ProcessTilde>
     <ProductHomePage>Homepage</ProductHomePage>
+    <Property>Eigenschaft</Property>
+    <Provider>Anbieter</Provider>
     <RadarStyle>Netz Stil</RadarStyle>
     <RadialBarBorderBrush>Grenzenpinsel radialer Leiste</RadialBarBorderBrush>
     <RadialBarBrush>Pinsel radialer Leiste</RadialBarBrush>
@@ -4191,13 +4300,16 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ShowBubble>Blasen anzeigen</ShowBubble>
     <ShowDialog>Dialog anzeigen</ShowDialog>
     <ShowEdgeValues>Werte an den Ränder anzeigen</ShowEdgeValues>
+    <ShowHyperlink>Hyperlink anzeigen</ShowHyperlink>
     <ShowImageBehind>Bild dahinter anzeigen</ShowImageBehind>
     <ShowInLegend>In Legende anzeigen</ShowInLegend>
+    <ShowInnerPoints>Innere Punkte anzeigen</ShowInnerPoints>
     <ShowInPercent>Anzeige in Prozent</ShowInPercent>
     <ShowLabels>Beschriftungen anzeigen</ShowLabels>
     <ShowLabelText>Text anzeigen</ShowLabelText>
     <ShowLegend>Beschriftung anzeigen</ShowLegend>
     <ShowMarker>Marker anzeigen</ShowMarker>
+    <ShowMeanMarkers>Mittelmarker anzeigen</ShowMeanMarkers>
     <ShowNulls>Nullen anzeigen</ShowNulls>
     <ShowOnZeroValues>Bei 0-Werten anzeigen</ShowOnZeroValues>
     <ShowOthers>Andere anzeigen</ShowOthers>
@@ -4237,6 +4349,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SortingEnabled>Sortierung aktivieren</SortingEnabled>
     <SortType>Sortier-Typ</SortType>
     <Space>Leerraum</Space>
+    <SpaceRatio>Leerraum</SpaceRatio>
     <Spacing>Abstand</Spacing>
     <SqlCommand>SQL-Abfrage</SqlCommand>
     <StartAngle>Anfangswinkel</StartAngle>
@@ -4268,6 +4381,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <SubReportPage>Seite des Unterberichts</SubReportPage>
     <Summaries>Zusammenfassungen</Summaries>
     <Summary>Gesamt</Summary>
+    <SummaryAlignment>Zusammenfassung-Ausrichtung</SummaryAlignment>
     <SummaryExpression>Summierung Ausdruck</SummaryExpression>
     <SummarySortDirection>Summierung Sortierung</SummarySortDirection>
     <SummaryType>Summierung Typ</SummaryType>
@@ -4324,6 +4438,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <TopN>Oberste N</TopN>
     <TopSide>Oberseite</TopSide>
     <Total>Gesamt</Total>
+    <TotalLabel>Total Label</TotalLabel>
     <Totals>Endsummen</Totals>
     <TrackColor>Trackfarbe</TrackColor>
     <TransparentColor>Transparentfarbe</TransparentColor>
@@ -4342,6 +4457,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <UnlimitedBreakable>Unbegrenzte können unterbrochen werden</UnlimitedBreakable>
     <UnlimitedHeight>Unbegrenzte Höhe</UnlimitedHeight>
     <UnlimitedWidth>Unbegrenzte Breite</UnlimitedWidth>
+    <UpperMarks>Obere Zeichen</UpperMarks>
     <UseAliases>Aliase benutzen</UseAliases>
     <UseExternalReport>Aus Datei laden</UseExternalReport>
     <UseParentStyles>Elternstile verwenden</UseParentStyles>
@@ -4376,6 +4492,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <VertSpacing>Vertikalabstand</VertSpacing>
     <ViewMode>Seitenansichts-Modus</ViewMode>
     <Visible>Sichtbar</Visible>
+    <VisualStates>Visuelle Zustände</VisualStates>
     <Watermark>Wasserzeichen</Watermark>
     <Weight>Gewicht</Weight>
     <WeightDataColumn>Gewicht-Datenspalte</WeightDataColumn>
@@ -4389,6 +4506,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <XTopAxis>X Achse oben</XTopAxis>
     <YAxis>Y Achse</YAxis>
     <YRightAxis>Y Achse rechts</YRightAxis>
+    <ZeroColor>Farbe Null</ZeroColor>
     <Zoom>Zoom</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -4527,7 +4645,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <CrossBands>Kreuz</CrossBands>
     <Dashboard>Dashboard</Dashboard>
     <Dialogs>Steuerelemente</Dialogs>
-    <EditStyles>[Stile bearbeiten]</EditStyles>
+    <EditStyles>Stile bearbeiten</EditStyles>
     <Enhancements>Erweiterungen</Enhancements>
     <Errors>Fehler</Errors>
     <EventsTab>Ereignisse</EventsTab>
@@ -4568,6 +4686,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <LabelPixels>Pixel:</LabelPixels>
     <LabelQueryTimeout>Abfrage-Timeout:</LabelQueryTimeout>
     <LabelSystemVariable>Systemvariable:</LabelSystemVariable>
+    <LabelTableOfContentsHint>Please, check the components which should form the table of contents. One component is equal to one heading level.</LabelTableOfContentsHint>
     <LabelTotals>Endsummen</LabelTotals>
     <LabelType>Typ:</LabelType>
     <LabelUserName>Benutzername:</LabelUserName>
@@ -4613,6 +4732,11 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <StyleNormal>Normal</StyleNormal>
     <StyleNote>Notiz</StyleNote>
     <StyleWarning>Warnung</StyleWarning>
+    <VisualChecked>Überprüft</VisualChecked>
+    <VisualDefault>Standard</VisualDefault>
+    <VisualDisabled>Deaktiviert</VisualDisabled>
+    <VisualHovered>Geschwebt</VisualHovered>
+    <VisualPressed>Gedrückt</VisualPressed>
     <Warnings>Warnungen</Warnings>
     <WhatsNewInVersion>Was gibt es neues in {0}</WhatsNewInVersion>
     <When>wenn {0} {1}</When>
@@ -4772,7 +4896,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Size>Größe</Size>
     <StyleDesigner>Stil-Editor</StyleDesigner>
     <Styles>Stil-Liste</Styles>
-    <TabHome>Ausgangsposition</TabHome>
+    <TabHome>Start</TabHome>
     <TabLayout>Layout</TabLayout>
     <TabPage>Seite</TabPage>
     <TabView>Ansicht</TabView>
@@ -4789,7 +4913,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <ToolbarStandard>Standard</ToolbarStandard>
     <ToolbarStyle>Stile</ToolbarStyle>
     <ToolbarTextFormat>Textformat</ToolbarTextFormat>
-    <ToolbarTools>Werkzeuge</ToolbarTools>
+    <ToolbarTools>Toolbox</ToolbarTools>
     <ToolbarViewOptions>Vorschau Optionen</ToolbarViewOptions>
     <ToolbarWatermarkImage>Wasserzeichen-Bild</ToolbarWatermarkImage>
     <ToolbarWatermarkText>Wasserzeichen-Text</ToolbarWatermarkText>
@@ -4800,7 +4924,7 @@ Sie enthält den Link zur Bestätigung Ihrer Registrierung. Um Ihre Registrierun
     <Select>Auswählen</Select>
     <Style>Stil kopieren</Style>
     <TextEditor>Text-Editor</TextEditor>
-    <title>Werkzeuge</title>
+    <title>Toolbox</title>
   </Toolbox>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Möchten Sie wirklich dieses Fenster schließen? Alle Downloads werden abgebrochen werden.</AllDownloadsWillCanceled>

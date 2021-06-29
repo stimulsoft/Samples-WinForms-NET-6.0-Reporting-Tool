@@ -1,16 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Connect_to_Data_from_the_Code</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Net" Version="2021.3.1" />
+    <PackageReference Include="Stimulsoft.Reports.Net" Version="2021.3.4" />
   </ItemGroup>
-
   <ItemGroup>
     <None Update="Data\Demo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -25,5 +22,4 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>
