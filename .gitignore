@@ -7,7 +7,6 @@
 /*/node_modules/
 
 # Files
-*.user
 *.pubxml
 *.PublishSettings
 .DS_Store
