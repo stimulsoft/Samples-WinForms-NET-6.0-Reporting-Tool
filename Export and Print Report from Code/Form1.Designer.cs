@@ -32,6 +32,7 @@
             this.buttonExport = new System.Windows.Forms.Button();
             this.comboBoxFormat = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // buttonPrint
@@ -103,6 +104,7 @@
         private System.Windows.Forms.Button buttonExport;
         private System.Windows.Forms.ComboBox comboBoxFormat;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 

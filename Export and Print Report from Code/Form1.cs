@@ -44,31 +44,40 @@ namespace Export_and_Print_Report_from_Code
             {
                 case "PDF":
                     report.ExportDocument(StiExportFormat.Pdf, stream);
+                    saveFileDialog.DefaultExt = ".pdf";
                     break;
 
                 case "Word":
                     report.ExportDocument(StiExportFormat.Word2007, stream);
+                    saveFileDialog.DefaultExt = ".docx";
                     break;
 
                 case "Excel":
                     report.ExportDocument(StiExportFormat.Excel2007, stream);
+                    saveFileDialog.DefaultExt = ".xlsx";
                     break;
 
                 case "Text":
                     report.ExportDocument(StiExportFormat.Text, stream);
+                    saveFileDialog.DefaultExt = ".txt";
                     break;
 
                 case "Image":
                     report.ExportDocument(StiExportFormat.ImagePng, stream);
+                    saveFileDialog.DefaultExt = ".png";
                     break;
             }
 
-            // Save to Local Storage
-            /*using (var fileStream = File.Create(@"d:\TwoSimpleLists.pdf"))
+            saveFileDialog.FileName = report.ReportName;
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                stream.Seek(0, SeekOrigin.Begin);
-                stream.CopyTo(fileStream);
-            }*/
+                // Save to Local Storage
+                using (var fileStream = File.Create(saveFileDialog.FileName))
+                {
+                    stream.Seek(0, SeekOrigin.Begin);
+                    stream.CopyTo(fileStream);
+                }
+            }
 
             MessageBox.Show("The export action is complete.", "Export Report");
         }
