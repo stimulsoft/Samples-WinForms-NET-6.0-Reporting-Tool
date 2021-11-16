@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showing a Report in the Vie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using Report Variables in Code", "Using Report Variables in Code\Using Report Variables in Code.csproj", "{B068E439-F9E4-47EA-A1E2-CF6E306E9FE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating Report in Runtime", "Creating Report in Runtime\Creating Report in Runtime.csproj", "{F77B91F1-B9B7-423D-8C71-F010F7654DC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating Report at Runtime", "Creating Report at Runtime\Creating Report at Runtime.csproj", "{F77B91F1-B9B7-423D-8C71-F010F7654DC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localizing the User Interface", "Localizing the User Interface\Localizing the User Interface.csproj", "{047C5721-EAC5-448C-BDFC-68B86BC353FF}"
 EndProject

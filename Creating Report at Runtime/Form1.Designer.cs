@@ -1,4 +1,4 @@
-﻿namespace Creating_Report_in_Runtime
+﻿namespace Creating_Report_at_Runtime
 {
     partial class Form1
     {
@@ -53,7 +53,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Creating Report in Runtime";
+            this.Text = "Creating Report at Runtime";
             this.ResumeLayout(false);
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Creating_Report_in_Runtime
+namespace Creating_Report_at_Runtime
 {
     static class Program
     {
