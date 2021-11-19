@@ -4,13 +4,13 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Connect to Data from the Code
-* Edit Report in the Designer
-* Export and Print Report from Code
-* Localization of the User Interface
-* Runtime Report Creation
-* Show Report in the Viewer
-* Using Report Variables
+* Connecting to Data from Code
+* Editing a Report Template in the Designer
+* Exporting a Report from Code
+* Localizing the User Interface
+* Creating Report at Runtime
+* Showing a Report in the Viewer
+* Using Report Variables in Code
 
 They are all combined in a Visual Studio solution (.sln-file).
 
