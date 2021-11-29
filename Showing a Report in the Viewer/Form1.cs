@@ -39,5 +39,10 @@ namespace Showing_a_Report_in_the_Viewer
             report.Show();
             //report.ShowWithRibbonGUI();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
