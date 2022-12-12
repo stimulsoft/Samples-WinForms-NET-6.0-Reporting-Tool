@@ -35,9 +35,10 @@
             // 
             // buttonCreate
             // 
-            this.buttonCreate.Location = new System.Drawing.Point(320, 190);
+            this.buttonCreate.Location = new System.Drawing.Point(152, 89);
+            this.buttonCreate.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.buttonCreate.Name = "buttonCreate";
-            this.buttonCreate.Size = new System.Drawing.Size(340, 60);
+            this.buttonCreate.Size = new System.Drawing.Size(223, 28);
             this.buttonCreate.TabIndex = 0;
             this.buttonCreate.Text = "Create New Report";
             this.buttonCreate.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(320, 260);
+            this.buttonEdit.Location = new System.Drawing.Point(152, 122);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(340, 60);
+            this.buttonEdit.Size = new System.Drawing.Size(223, 28);
             this.buttonEdit.TabIndex = 1;
             this.buttonEdit.Text = "Edit a Report Template in the Designer";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -55,13 +57,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 529);
+            this.ClientSize = new System.Drawing.Size(524, 248);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonCreate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

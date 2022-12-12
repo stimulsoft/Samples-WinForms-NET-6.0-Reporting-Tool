@@ -38,9 +38,10 @@
             // 
             // buttonPrint
             // 
-            this.buttonPrint.Location = new System.Drawing.Point(330, 150);
+            this.buttonPrint.Location = new System.Drawing.Point(178, 70);
+            this.buttonPrint.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.buttonPrint.Name = "buttonPrint";
-            this.buttonPrint.Size = new System.Drawing.Size(320, 60);
+            this.buttonPrint.Size = new System.Drawing.Size(172, 28);
             this.buttonPrint.TabIndex = 0;
             this.buttonPrint.Text = "Print Report";
             this.buttonPrint.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // buttonExport
             // 
-            this.buttonExport.Location = new System.Drawing.Point(330, 250);
+            this.buttonExport.Location = new System.Drawing.Point(178, 117);
+            this.buttonExport.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.buttonExport.Name = "buttonExport";
-            this.buttonExport.Size = new System.Drawing.Size(320, 60);
+            this.buttonExport.Size = new System.Drawing.Size(172, 28);
             this.buttonExport.TabIndex = 1;
             this.buttonExport.Text = "Export Report";
             this.buttonExport.UseVisualStyleBackColor = true;
@@ -65,32 +67,35 @@
             "Excel",
             "Text",
             "Image"});
-            this.comboBoxFormat.Location = new System.Drawing.Point(465, 323);
+            this.comboBoxFormat.Location = new System.Drawing.Point(249, 151);
+            this.comboBoxFormat.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.comboBoxFormat.Name = "comboBoxFormat";
-            this.comboBoxFormat.Size = new System.Drawing.Size(185, 40);
+            this.comboBoxFormat.Size = new System.Drawing.Size(100, 23);
             this.comboBoxFormat.TabIndex = 2;
             this.comboBoxFormat.Text = "PDF";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(330, 326);
+            this.label1.Location = new System.Drawing.Point(178, 153);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 32);
+            this.label1.Size = new System.Drawing.Size(48, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Format:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 529);
+            this.ClientSize = new System.Drawing.Size(524, 248);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxFormat);
             this.Controls.Add(this.buttonExport);
             this.Controls.Add(this.buttonPrint);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

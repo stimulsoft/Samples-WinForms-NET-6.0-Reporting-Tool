@@ -1,6 +1,6 @@
-# WinForms C# .NET 5.0 samples for Stimulsoft Reports.NET
+# Samples for Stimulsoft Reports.NET
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.NET reporting tool in the Windows Forms applications, using C# code and WinForms components for .NET 5.0 framework.
+#### This repository contains the source code of the examples of usage Stimulsoft Reports.NET reporting tool in the Windows Forms applications, using C# code and WinForms components for .NET 5.0 / 6.0 / 7.0 framework.
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
